@@ -71,6 +71,7 @@ Levanta la aplicación presionado el botón RUN de replit.
 
 Prueba la conexión registrandote como usuario usando la interfaz. Si todo está ok puedes chatear.
 
+
 # Actividades y Preguntas
 
 1. Modifica el Payload del token JWT para incluir la fecha de nacimiento del usuario. Incluye el código que modificaste como respuesta.
@@ -84,6 +85,11 @@ Prueba la conexión registrandote como usuario usando la interfaz. Si todo está
 Colocar el nombre de los integrantes del grupo y las respuestas al final de este archivo.
 
 # Integrantes del Grupo
+Francisco Parra
+
+--> Hice el intento, pero falle en algun paso..
+no me permite ingresar con usuario creado en Yarc
+no me crea nuevo registro
 
 # Respuesta 1
 
@@ -92,6 +98,17 @@ Colocar el nombre de los integrantes del grupo y las respuestas al final de este
 # Respuesta 3
 
 # Respuesta 4
+
+La vulnerabilidad en el código puede estar relacionada con la falta de autenticación y autorización en la conexión WebSocket. Actualmente, cualquiera puede conectar al servidor WebSocket sin restricciones, lo que podría conducir a posibles problemas de seguridad y acceso no autorizado.
+
+Para solucionar esta vulnerabilidad, se podría implementar un mecanismo de autenticación y autorización en la conexión WebSocket.
+por ejemplo: 
+* tokens JWT o cualquier otro método de autenticación seguro.
+* Valida las credenciales del cliente: En el servidor WebSocket,
+
+# Respuesta 5
+
+Puede ser en la creacion de registro. al ingresar la edad.
 
 
 
